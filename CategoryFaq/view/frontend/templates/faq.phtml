@@ -1,0 +1,38 @@
+<?php
+
+use Magento\Framework\Escaper;
+use Magento\Framework\View\Element\Template;
+
+/**
+ * @var Escaper $escaper
+ * @var Template $block
+ */
+?>
+<?php
+$viewModel = $block->getViewModel();
+$faqs = $viewModel->getCurrentCategoryFaqs();
+if ($viewModel->showFaq() && $faqs && $faqs->getSize()):
+    ?>
+    <div id="faq-wrapper" class="faq-wrapper">
+        <h3 class="section-heading text-center margin-bottom-none bold"><?= __('Frequently Asked Questions') ?></h3>
+        <div class="faq-content"
+             data-mage-init='{"accordion":{"openedState": "active", "collapsible": true, "active": false, "multipleCollapsible": true}}'>
+            <?php foreach ($faqs as $faq): ?>
+                <div class="faq-item">
+                    <div data-role="collapsible">
+                        <div class="faq-question" data-role="trigger">                        
+                            <h4><?= $escaper->escapeHtml(
+        $viewModel->renderShortCodes($faq->getQuestion())
+    ); ?>
+                            <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="faq-answer"
+                         data-role="content"><?= $viewModel->renderShortCodes($faq->getAnswer()) ?></div>
+                </div>
+            <?php endforeach; ?>
+        </div>
+    </div>
+<?php endif; ?>

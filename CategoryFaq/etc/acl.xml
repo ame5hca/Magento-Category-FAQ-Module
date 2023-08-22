@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="GiftGroup_SEO::parent">
+                    <resource id="GiftGroup_CategoryFaq::category_faq" title="Category FAQ" translate="title"
+                              sortOrder="110">
+                        <resource id="GiftGroup_CategoryFaq::faq_templates" title="FAQ Templates" translate="title"
+                                  sortOrder="1"/>
+                        <resource id="GiftGroup_CategoryFaq::faq" title="FAQ " translate="title" sortOrder="2"/>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

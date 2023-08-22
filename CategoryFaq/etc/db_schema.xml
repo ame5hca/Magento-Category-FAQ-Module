@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="giftgroup_category_faq_template" resource="default" engine="innodb" comment="Category FAQ Template">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false" identity="true"
+                comment="ID"/>
+        <column xsi:type="varchar" name="question" nullable="false" length="255" comment="FAQ"/>
+        <column xsi:type="text" name="answer" nullable="false" comment="FAQ Answer"/>
+        <column xsi:type="smallint" name="is_active" unsigned="false" nullable="false" identity="false"
+                default="1" comment="Is Active"/>
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Created At"/>
+        <column xsi:type="timestamp" name="updated_at" on_update="true" nullable="false" default="CURRENT_TIMESTAMP"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <index referenceId="GIFTGP_CATEGORY_FAQ_TEMPLATE_QUESTION" indexType="btree">
+            <column name="question"/>
+        </index>
+    </table>
+    <table name="giftgroup_category_faq" resource="default" engine="innodb" comment="Category specific FAQ">
+        <column xsi:type="int" name="id" unsigned="true" nullable="false" identity="true"
+                comment="ID"/>
+        <column xsi:type="int" name="category_id" unsigned="true" nullable="false" identity="false"
+                comment="Category ID"/>
+        <column xsi:type="varchar" name="question" nullable="false" length="255" comment="FAQ"/>
+        <column xsi:type="text" name="answer" nullable="false" comment="FAQ Answer"/>
+        <column xsi:type="smallint" name="is_active" unsigned="false" nullable="false" identity="false"
+                default="1" comment="Is Active"/>
+        <column xsi:type="timestamp" name="created_at" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Created At"/>
+        <column xsi:type="timestamp" name="updated_at" on_update="true" nullable="false" default="CURRENT_TIMESTAMP"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <constraint xsi:type="foreign" referenceId="GIFTGP_CATEGORY_FAQ_CATEGORY_ID_CATALOG_CATEGORY_ENTITY_ENTITY_ID"
+                    table="giftgroup_category_faq"
+                    column="category_id" referenceTable="catalog_category_entity" referenceColumn="entity_id"
+                    onDelete="CASCADE"/>
+        <index referenceId="GIFTGP_CATEGORY_FAQ_QUESTION" indexType="btree">
+            <column name="question"/>
+        </index>
+        <index referenceId="GIFTGP_CATEGORY_FAQ_CATEGORY_ID" indexType="btree">
+            <column name="category_id"/>
+        </index>
+    </table>
+</schema>
