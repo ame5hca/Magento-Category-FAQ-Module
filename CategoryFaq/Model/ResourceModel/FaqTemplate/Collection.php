@@ -1,9 +1,9 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model\ResourceModel\FaqTemplate;
+namespace AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqTemplate;
 
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqTemplate as FaqTemplateResource;
-use GiftGroup\CategoryFaq\Model\FaqTemplate as FaqTemplateModel;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqTemplate as FaqTemplateResource;
+use AmeshExtensions\CategoryFaq\Model\FaqTemplate as FaqTemplateModel;
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 /**

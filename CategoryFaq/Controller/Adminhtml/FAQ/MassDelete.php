@@ -1,9 +1,9 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Controller\Adminhtml\FAQ;
+namespace AmeshExtensions\CategoryFaq\Controller\Adminhtml\FAQ;
 
 use Exception;
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\CollectionFactory;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\CollectionFactory;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Backend\Model\View\Result\Redirect;

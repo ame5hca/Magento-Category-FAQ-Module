@@ -1,9 +1,9 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Ui\Component\Form;
+namespace AmeshExtensions\CategoryFaq\Ui\Component\Form;
 
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\Collection;
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\CollectionFactory;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\Collection;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\CollectionFactory;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Framework\Exception\FileSystemException;
 use Magento\Framework\Exception\LocalizedException;

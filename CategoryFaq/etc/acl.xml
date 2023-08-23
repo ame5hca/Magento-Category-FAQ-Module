@@ -4,14 +4,12 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="GiftGroup_SEO::parent">
-                    <resource id="GiftGroup_CategoryFaq::category_faq" title="Category FAQ" translate="title"
-                              sortOrder="110">
-                        <resource id="GiftGroup_CategoryFaq::faq_templates" title="FAQ Templates" translate="title"
-                                  sortOrder="1"/>
-                        <resource id="GiftGroup_CategoryFaq::faq" title="FAQ " translate="title" sortOrder="2"/>
-                    </resource>
-                </resource>
+                <resource id="AmeshExtensions_CategoryFaq::category_faq" title="Category FAQ" translate="title"
+                            sortOrder="110">
+                    <resource id="AmeshExtensions_CategoryFaq::faq_templates" title="FAQ Templates" translate="title"
+                                sortOrder="1"/>
+                    <resource id="AmeshExtensions_CategoryFaq::faq" title="FAQ " translate="title" sortOrder="2"/>
+                </resource>                
             </resource>
         </resources>
     </acl>

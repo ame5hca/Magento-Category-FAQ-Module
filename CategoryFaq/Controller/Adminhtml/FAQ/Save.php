@@ -1,8 +1,8 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Controller\Adminhtml\FAQ;
+namespace AmeshExtensions\CategoryFaq\Controller\Adminhtml\FAQ;
 
-use GiftGroup\CategoryFaq\Model\FaqCategoryFactory;
+use AmeshExtensions\CategoryFaq\Model\FaqCategoryFactory;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\Action\HttpPostActionInterface;

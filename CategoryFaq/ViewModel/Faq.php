@@ -1,13 +1,13 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\ViewModel;
+namespace AmeshExtensions\CategoryFaq\ViewModel;
 
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\Collection as FaqCategoryCollection;
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqTemplate\Collection as FaqTemplateCollection;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\Collection as FaqCategoryCollection;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqTemplate\Collection as FaqTemplateCollection;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 use Magento\Framework\App\RequestInterface;
-use GiftGroup\CategoryFaq\Model\Faq as FaqModel;
-use GiftGroup\CategoryFaq\Model\CategoryShortcodeRender;
+use AmeshExtensions\CategoryFaq\Model\Faq as FaqModel;
+use AmeshExtensions\CategoryFaq\Model\CategoryShortcodeRender;
 
 /**
  * Class to provide the FAQ data to frontend view

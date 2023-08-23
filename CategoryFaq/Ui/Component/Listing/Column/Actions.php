@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Ui\Component\Listing\Column;
+namespace AmeshExtensions\CategoryFaq\Ui\Component\Listing\Column;
 
 use Magento\Framework\UrlInterface;
 use Magento\Framework\View\Element\UiComponent\ContextInterface;

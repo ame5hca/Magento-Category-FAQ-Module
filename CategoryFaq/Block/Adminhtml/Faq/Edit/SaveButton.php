@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit;
+namespace AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 

@@ -12,9 +12,9 @@
     </argument>
     <settings>
         <buttons>
-            <button name="save" class="GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit\SaveButton"/>
-            <button name="delete" class="GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit\DeleteButton"/>
-            <button name="back" class="GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit\BackButton"/>
+            <button name="save" class="AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit\SaveButton"/>
+            <button name="delete" class="AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit\DeleteButton"/>
+            <button name="back" class="AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit\BackButton"/>
         </buttons>
         <namespace>category_faq_template_form</namespace>
         <dataScope>data</dataScope>
@@ -31,7 +31,7 @@
         <settings>
             <submitUrl path="category_faq/template/save"/>
         </settings>
-        <dataProvider class="GiftGroup\CategoryFaq\Ui\Component\Form\FaqTemplateDataProvider"
+        <dataProvider class="AmeshExtensions\CategoryFaq\Ui\Component\Form\FaqTemplateDataProvider"
                       name="category_faq_template_form_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>
@@ -45,7 +45,7 @@
         </settings>
         <htmlContent name="faq_template_how_to_use_info">
             <block class="Magento\Framework\View\Element\Template" name="faq_template_how_to_use_instruction"
-                   template="GiftGroup_CategoryFaq::faq_template/instructions.phtml"/>
+                   template="AmeshExtensions_CategoryFaq::faq_template/instructions.phtml"/>
         </htmlContent>
         <field name="id" formElement="input">
             <argument name="data" xsi:type="array">

@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model\Config\Source;
+namespace AmeshExtensions\CategoryFaq\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 

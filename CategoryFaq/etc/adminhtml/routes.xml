@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="category_faq" frontName="category_faq">
-            <module name="GiftGroup_CategoryFaq"/>
+            <module name="AmeshExtensions_CategoryFaq"/>
         </route>
     </router>
 </config>

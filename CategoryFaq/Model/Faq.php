@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model;
+namespace AmeshExtensions\CategoryFaq\Model;
 
 /**
  * Class to provide the FAQ data.

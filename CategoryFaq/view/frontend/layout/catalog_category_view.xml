@@ -2,14 +2,14 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <css src="GiftGroup_CategoryFaq::css/category_faq.css"/>
+        <css src="AmeshExtensions_CategoryFaq::css/category_faq.css"/>
     </head>
     <body>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="category_faq"
-                   template="GiftGroup_CategoryFaq::faq.phtml" after="-">
+                   template="AmeshExtensions_CategoryFaq::faq.phtml" after="-">
                 <arguments>
-                    <argument name="view_model" xsi:type="object">GiftGroup\CategoryFaq\ViewModel\Faq</argument>
+                    <argument name="view_model" xsi:type="object">AmeshExtensions\CategoryFaq\ViewModel\Faq</argument>
                 </arguments>
             </block>
         </referenceContainer>

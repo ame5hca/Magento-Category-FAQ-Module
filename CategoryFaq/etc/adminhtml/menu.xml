@@ -2,16 +2,16 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="GiftGroup_CategoryFaq::category_faq" title="Category FAQ" translate="title"
-             module="GiftGroup_CategoryFaq" sortOrder="1005"
-             resource="GiftGroup_CategoryFaq::category_faq" parent="GiftGroup_SEO::parent"/>
-        <add id="GiftGroup_CategoryFaq::faq_templates" title="FAQ Templates" translate="title"
-             module="GiftGroup_CategoryFaq" sortOrder="0"
-             parent="GiftGroup_CategoryFaq::category_faq" action="category_faq/template/"
-             resource="GiftGroup_CategoryFaq::faq_templates"/>
-        <add id="GiftGroup_CategoryFaq::faq" title="FAQ Category" translate="title" module="GiftGroup_CategoryFaq"
+        <add id="AmeshExtensions_CategoryFaq::category_faq" title="Category FAQ" translate="title"
+             module="AmeshExtensions_CategoryFaq" sortOrder="1005"
+             resource="AmeshExtensions_CategoryFaq::category_faq"/>
+        <add id="AmeshExtensions_CategoryFaq::faq_templates" title="FAQ Templates" translate="title"
+             module="AmeshExtensions_CategoryFaq" sortOrder="0"
+             parent="AmeshExtensions_CategoryFaq::category_faq" action="category_faq/template/"
+             resource="AmeshExtensions_CategoryFaq::faq_templates"/>
+        <add id="AmeshExtensions_CategoryFaq::faq" title="FAQ Category" translate="title" module="AmeshExtensions_CategoryFaq"
              sortOrder="1"
-             parent="GiftGroup_CategoryFaq::category_faq" action="category_faq/faq/"
-             resource="GiftGroup_CategoryFaq::faq"/>
+             parent="AmeshExtensions_CategoryFaq::category_faq" action="category_faq/faq/"
+             resource="AmeshExtensions_CategoryFaq::faq"/>
     </menu>
 </config>

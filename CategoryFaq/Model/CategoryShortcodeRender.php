@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model;
+namespace AmeshExtensions\CategoryFaq\Model;
 
 use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Psr\Log\LoggerInterface;

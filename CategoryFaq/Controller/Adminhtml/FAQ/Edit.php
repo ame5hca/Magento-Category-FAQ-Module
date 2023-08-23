@@ -1,9 +1,9 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Controller\Adminhtml\FAQ;
+namespace AmeshExtensions\CategoryFaq\Controller\Adminhtml\FAQ;
 
-use GiftGroup\CategoryFaq\Model\FaqCategoryFactory;
-use GiftGroup\CategoryFaq\Model\Registry\FaqCategory as FaqCategoryRegistry;
+use AmeshExtensions\CategoryFaq\Model\FaqCategoryFactory;
+use AmeshExtensions\CategoryFaq\Model\Registry\FaqCategory as FaqCategoryRegistry;
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Magento\Framework\App\Action\HttpGetActionInterface;

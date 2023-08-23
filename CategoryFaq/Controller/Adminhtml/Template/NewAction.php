@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Controller\Adminhtml\Template;
+namespace AmeshExtensions\CategoryFaq\Controller\Adminhtml\Template;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;

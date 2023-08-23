@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model\ResourceModel;
+namespace AmeshExtensions\CategoryFaq\Model\ResourceModel;
 
 use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 

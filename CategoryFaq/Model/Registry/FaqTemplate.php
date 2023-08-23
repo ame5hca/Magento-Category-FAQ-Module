@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model\Registry;
+namespace AmeshExtensions\CategoryFaq\Model\Registry;
 
 /**
  * Class is responsible for serving the faq template data.

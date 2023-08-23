@@ -1,6 +1,6 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Ui\Component\Listing\Column;
+namespace AmeshExtensions\CategoryFaq\Ui\Component\Listing\Column;
 
 /**
  * Class handling the actions of the grid view

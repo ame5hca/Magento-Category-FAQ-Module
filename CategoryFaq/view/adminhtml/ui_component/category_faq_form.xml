@@ -12,9 +12,9 @@
     </argument>
     <settings>
         <buttons>
-            <button name="save" class="GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit\SaveButton"/>
-            <button name="delete" class="GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit\DeleteButton"/>
-            <button name="back" class="GiftGroup\CategoryFaq\Block\Adminhtml\Faq\Edit\BackButton"/>
+            <button name="save" class="AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit\SaveButton"/>
+            <button name="delete" class="AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit\DeleteButton"/>
+            <button name="back" class="AmeshExtensions\CategoryFaq\Block\Adminhtml\Faq\Edit\BackButton"/>
         </buttons>
         <namespace>category_faq_form</namespace>
         <dataScope>data</dataScope>
@@ -31,7 +31,7 @@
         <settings>
             <submitUrl path="category_faq/faq/save"/>
         </settings>
-        <dataProvider class="GiftGroup\CategoryFaq\Ui\Component\Form\FaqCategoryDataProvider"
+        <dataProvider class="AmeshExtensions\CategoryFaq\Ui\Component\Form\FaqCategoryDataProvider"
                       name="category_faq_form_data_source">
             <settings>
                 <requestFieldName>id</requestFieldName>

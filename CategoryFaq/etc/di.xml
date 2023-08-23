@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <virtualType name="GiftGroup\CategoryFaq\Model\ResourceModel\FaqTemplate\Grid\Collection"
+    <virtualType name="AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqTemplate\Grid\Collection"
         type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
             <argument name="mainTable"
                 xsi:type="string">giftgroup_category_faq_template</argument>
             <argument name="resourceModel"
-                xsi:type="string">GiftGroup\CategoryFaq\Model\ResourceModel\FaqTemplate\Collection
+                xsi:type="string">AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqTemplate\Collection
             </argument>
         </arguments>
     </virtualType>
@@ -17,18 +17,18 @@
                 xsi:type="array">
                 <item name="category_faq_template_listing_data_source"
                     xsi:type="string">
-                    GiftGroup\CategoryFaq\Model\ResourceModel\FaqTemplate\Grid\Collection
+                    AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqTemplate\Grid\Collection
                 </item>
             </argument>
         </arguments>
     </type>
-    <virtualType name="GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\Grid\Collection"
+    <virtualType name="AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\Grid\Collection"
         type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
             <argument name="mainTable"
                 xsi:type="string">giftgroup_category_faq</argument>
             <argument name="resourceModel"
-                xsi:type="string">GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\Collection
+                xsi:type="string">AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\Collection
             </argument>
         </arguments>
     </virtualType>
@@ -38,7 +38,7 @@
                 xsi:type="array">
                 <item name="category_faq_listing_data_source"
                     xsi:type="string">
-                    GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory\Grid\Collection
+                    AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory\Grid\Collection
                 </item>
             </argument>
         </arguments>

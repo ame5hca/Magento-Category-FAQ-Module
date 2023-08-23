@@ -1,9 +1,9 @@
 <?php
 
-namespace GiftGroup\CategoryFaq\Model;
+namespace AmeshExtensions\CategoryFaq\Model;
 
 use Magento\Framework\Model\AbstractModel;
-use GiftGroup\CategoryFaq\Model\ResourceModel\FaqCategory as FaqCategoryResource;
+use AmeshExtensions\CategoryFaq\Model\ResourceModel\FaqCategory as FaqCategoryResource;
 
 /**
  * FAQ category model class

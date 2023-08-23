@@ -28,7 +28,7 @@
             </storageConfig>
             <updateUrl path="mui/index/render"/>
         </settings>
-        <aclResource>GiftGroup_CategoryFaq::faq</aclResource>
+        <aclResource>AmeshExtensions_CategoryFaq::faq</aclResource>
         <dataProvider class="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider"
                       name="category_faq_listing_data_source">
             <settings>
@@ -105,14 +105,14 @@
                 <label translate="true">Answer</label>
             </settings>
         </column>
-        <column name="category_id" class="GiftGroup\CategoryFaq\Ui\Component\Listing\Column\Category">
+        <column name="category_id" class="AmeshExtensions\CategoryFaq\Ui\Component\Listing\Column\Category">
             <settings>
                 <label translate="true">Category</label>
             </settings>
         </column>
         <column name="is_active" component="Magento_Ui/js/grid/columns/select">
             <settings>
-                <options class="GiftGroup\CategoryFaq\Model\Config\Source\IsActive"/>
+                <options class="AmeshExtensions\CategoryFaq\Model\Config\Source\IsActive"/>
                 <filter>select</filter>
                 <dataType>select</dataType>
                 <label translate="true">Status</label>
@@ -125,7 +125,7 @@
                 <label translate="true">Modified</label>
             </settings>
         </column>
-        <actionsColumn name="actions" class="GiftGroup\CategoryFaq\Ui\Component\Listing\Column\FaqActions">
+        <actionsColumn name="actions" class="AmeshExtensions\CategoryFaq\Ui\Component\Listing\Column\FaqActions">
             <settings>
                 <indexField>id</indexField>
             </settings>
